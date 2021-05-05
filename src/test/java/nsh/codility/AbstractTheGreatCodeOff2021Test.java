@@ -198,4 +198,16 @@ public abstract class AbstractTheGreatCodeOff2021Test {
 
 		assertEquals(a, getTestObject().solution(N, K, A, B, C));
 	}
+
+	@Test
+	void test17() {
+		int N = 8;
+		int K = 3;
+		int[] A = new int[] { 1, 7, 1, 5, 3, 1 };
+		int[] B = new int[] { 5, 8, 8, 8, 3, 2 };
+		int[] C = new int[] { 1, 1, 2, 3, 3, 1 };
+		int a = 4;
+
+		assertEquals(a, getTestObject().solution(N, K, A, B, C));
+	}
 }
